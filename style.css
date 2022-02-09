@@ -2,4 +2,32 @@ body{
     max-width: 90%;
     margin: auto;
     background-color:lightskyblue;
+
 }
+
+.good{
+    color:green;
+}
+
+.bad{
+    color:red;
+}
+
+
+
+table,th, td{
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+tr:nth-child(even){
+    background-color:gray;
+}
+
+
+img{
+    float: left;
+    margin-right: 15px;
+}
+
+ 
